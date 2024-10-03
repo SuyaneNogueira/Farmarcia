@@ -38,11 +38,11 @@
       }
       .itens>button {
         padding-left: 55px;
-        color:var(--cor-6);
+        color:var(--cor-2);
         text-decoration: none;
         font-family: 'Poppins', sans-serif;
         font-size: 20px;
-        background-color: var(--cor-4);
+        background-color: var(--cor-1);
         
         border-color: var(--cor-6);
         width: 80%;
@@ -52,7 +52,7 @@
     .itens>button:hover {
         text-decoration: underline;
         transition: 0.1s;
-        color: var(--cor-2);
+        color: var(--cor-4);
         
 
     }
@@ -62,14 +62,7 @@
         display: flex;
     }
 
-    .SOBN{
-     align-items: center;
-      color: var(--cor-2);
-      background-color: var(--cor-4);
-      border-radius: 20px;
-      width: 299px;
-      height:410px ;
-    }
+    
 
     img{
 
@@ -91,6 +84,39 @@
 .link2:hover,
 .link3:hover,
 .link4:hover {
-    color: #e0dcc0;
+    color:var(--cor-2);
     transition: 0.3s;
+ }
+ .SND{
+  color: var(--cor-4);
+  text-align: center;
+  padding:20px ;
+
+ }
+ 
+
+ .Sorteio{
+  justify-content: space-around;
+  align-items: center;
+  color: var(--cor-2);
+  width: 20%;
+  height: 19%;
+  padding: 20Px;
+  border-radius: 10%;
+  background-color:var(--cor-1);
+  text-align: center;
+
+ }
+
+ .Kit{
+  color: var(--cor-5);
+ }
+
+ .Camisetas{
+
+  border-radius: 70px;
+  width: 300px;
+ padding: 19px;
+ 
+
  }
